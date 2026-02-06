@@ -11,8 +11,8 @@
 }
 
 body{
-    background: rgb(248, 204, 204);
-    color: rgb(22, 21, 22);
+    background:#EFC18F;
+    color: pink;
     list-style: 1.7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -23,8 +23,8 @@ p{
     margin-bottom: 1rem;
 }
 nav{
-    background-color: rgb(236, 152, 152);
-    color: rgb(15, 15, 15);
+    background-color: #113e53;
+    color: pink;
     padding: 1rem;
 
 }
@@ -67,12 +67,12 @@ nav a :hover{
     align-items: center;
 }
 .social-links a{
-    color: rgb(226, 89, 112);
+    color:#113e53;
     text-decoration: none;
     font-size: 0.95rem;
 }
 .footer-social a{
-    color: rgb(241, 9, 125);
+    color: #113e53;;
     text-decoration: none;
 }
 /*contact form styles*/
@@ -86,12 +86,12 @@ nav a :hover{
 #contact-form input,
 #contact-form textarea{
     padding: 0.5rem;
-    border: 1px solid rgb(236, 152, 152);
+    border: 1px solid#113e53;;
     border-radius: 4pxs;
     width: 100%;
 }
 #contact-form button{
-    background-color:rgb(236, 152, 152);
+    background-color:#113e53;;
     color: aliceblue;
     padding: 0.6rem 1rem;
     border: none;
@@ -99,7 +99,7 @@ nav a :hover{
     cursor: pointer;
 }
 #contact-form button:hover{
-    background-color: rgb(236, 152, 152);
+    background-color:#113e53;;
 }
 .contact-fallback{
     text-align: center;
@@ -115,7 +115,7 @@ main{
 .hero{
     text-align: center;
     padding: 4rem 0;
-    background-color: rgb(236, 152, 152);
+    background-color:#113e53;;
     margin-bottom: 2rem;
 }
 .hero h2{
@@ -130,7 +130,7 @@ main{
 }
 /*sections*/
 section{
-    background-color:rgb(236, 152, 152);
+    background-color:#113e53;;
     padding: 2rem;
     margin-bottom: 2rem;
     border-radius: 5px;
@@ -139,7 +139,7 @@ section{
 section h2{
     text-align: center;
     margin-bottom: 2rem;
-    color: rgb(248, 94, 210);
+    color: #113e53;;
 }
 
 /*about section*/
@@ -152,7 +152,7 @@ section h2{
     margin-bottom: 1rem;
 }
 .about-preview{
-    background-color: rgb(236, 152, 152);
+    background-color: #113e53;;
     text-overflow: 20px;
 }
 /*skills*/
@@ -161,7 +161,7 @@ section h2{
     margin-bottom: 0.5rem;
 }
 .skills-preview{
-    background-color:rgb(236, 152, 152);
+    background-color: #113e53;;
 }
 .skills-list ul{
     list-style: none;
@@ -170,7 +170,7 @@ section h2{
     gap: 1rem;
 }
 .skills-list li{
-    background-color:rgb(236, 152, 152);
+    background-color: #113e53;;;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     justify-content: left;
@@ -185,7 +185,7 @@ section h2{
     margin-left: 1rem;
 }
 .project-preview{
-    background-color: rgb(236, 152, 152);
+    background-color: #113e53;;
 
 }
 .project-card{
@@ -205,7 +205,7 @@ section h2{
     justify-content: left;
  }
  .service-preview{
-    background-color: rgb(236, 152, 152);
+    background-color: #113e53;;
  }
 .service-item{
     text-align: justify;
@@ -216,11 +216,11 @@ section h2{
     text-align: center;
 }
 .contact-preview{
-    background-color: rgb(236, 152, 152);
+    background-color: #113e53;;
 }
 /*footer*/
 footer{
-    background-color: rgb(236, 152, 152);
+    background-color: #113e53;;
     color: pink;
     text-align: center;
     padding: 1rem 0;
@@ -264,4 +264,7 @@ footer{
 }
 .page-name{
     color: #f877b7;
+}
+.pages{
+    color:#e2cdd8
 }
