@@ -179,24 +179,36 @@ section h2{
 .project-grid{
     display: grid;
     margin-left: 2rem;
+    margin-right: 3rem;
     padding: 15px;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     gap: 2rem;
-    margin-left: 1rem;
+    justify-content: center;
 }
 .project-preview{
     background-color: #113e53;;
-
 }
+
 .project-card{
     border: 1px solid #e2cdd8;
     border-radius: 20pxs;
     overflow: hidden;
     transition: transform 0.3s;
     margin-left: 1rem;
+    flex-direction: row;
 }
 .project-card:hover{
     transform: translateY(-5PX);
+}
+.photo_box{
+     width: 192;
+    height: 102px;
+    border-radius: 50%;
+    object-fit:contain;
+    margin-bottom: 7rem;
+    margin-bottom: 7rem;
+
+
 }
 
  /*service section*/
